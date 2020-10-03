@@ -1,0 +1,680 @@
+{
+	"id": "4795b39b-ca06-40ee-390c-f9731496898b",
+	"name": "Heippi",
+	"description": "Prueba de conocimientos",
+	"order": [
+		"5d46a678-c09d-0eaa-fbaf-d82dcc0f70e3",
+		"9f416c61-2979-8b42-85da-4ba93196c17e",
+		"4c8790dc-9b8b-7302-95d1-8828d67e3463",
+		"2583d9f6-9103-c336-8620-1801985f750d",
+		"390fb49f-c13a-3f2f-7d73-ce48befe2144",
+		"3499b83f-4d69-ee12-1145-234ae455d78d",
+		"22daf9a9-4f4f-9d9c-2998-1701739d139c",
+		"d19b8dc4-33a1-9487-7589-50b644fc25cf",
+		"7ca0bf87-4dbe-4c40-bb0e-6e9b49129949",
+		"e210f03b-3439-67ee-6787-1caf0e27b4e3",
+		"d3fdab05-e093-b305-383d-77709decad4d",
+		"8acbdb75-dae1-b5f7-e190-ce2702aaaf37",
+		"60da45a6-05ca-5e65-deee-6e2952e795d8",
+		"715795fa-b1ac-103c-2ecc-1989971a5e83"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1601655710711,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "22daf9a9-4f4f-9d9c-2998-1701739d139c",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwtheippi-.test/api/hospitals",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601701296478,
+			"name": "listatar hopitales",
+			"description": "",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":111,\n\t\"email\":\"correo@mail.com\",\n\t\"phone\":\"111123232\",\n\t\"password\":\"123456\",\n\t\"address\":\"address\",\n\t\"birthdate\":\"14-11-1988\",\n\t\"specialty\":\"Pediatra\",\n\t\"type_id\":1,\n\t\"parent_id\":0\n}\n"
+		},
+		{
+			"id": "2583d9f6-9103-c336-8620-1801985f750d",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\n//Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMmU3YzhkMmJmNGUyYzQ0YjFjOGQ5MGYzYzAyMzkzNzM2Mzg3N2M1MjZmZDgzZmU1Mjc2ZDM1YTNlY2I3NzQ1NDk3MWNlODYxODhiMzFlNzgiLCJpYXQiOjE2MDE2ODAxNDcsIm5iZiI6MTYwMTY4MDE0NywiZXhwIjoxNjMzMjE2MTQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Ccqgzw4nCQU534Z_d8XEY8GtA3n-LzEIqvc2w7p7SXXqgcBLkEZyctzv6_P4VOHARJstuOWQMaJ4qf4xU2SP5qZKQgfU-Fq27JTEUMBXJCDj92CYUqHBplHHTe09i5TKGoCKRgQhC4YPrXY3I7MlH7zkfUap_CQA2Ezzv0N_CMZZ-tcHxVO1BJp2a63Bi8EB2_vavaz3bkCruol7LoxRFBGTiqyLX55mJ5Wn0hQZhLOwzJHBAn4OPHaoN87VMGz1I6t1e_L2nTLcTmBSVnG_Zpt2XyUO062imWyQ-7MjJE0fofC6D_uoKBJTZzY2Mc2eevJsIE1Gcexyv0wYWpGqng6BB5NQObGdqyt1cB4JUM9P3rVgruSInvec-6Rjcs7g5iD-TcKAcoxuIl90pPGKuM-TSFRfj2nTniGU603c6zLnGGzRw8yBNUjq2KkwS3IX3W7fjomcnJ7MUKvpjIpx96h_-k3DTo24apgMeX0JRqanQeNV1otqKVzSm4r7zF3Lk9HPBXA05FTCCN1BoVPtdvR9MI_65VX8l4UGQiUWriRLfuiMx3Q2v_t_XUSG8qjA2P2SE1WLJUYlyUaMxAnhFInqTWV8hk3tOivjI_ZDn8-iopLXiQqRY8GVrlSeyVHwblj2UiPUUq3zAOi7a0Lv4dpoAq8g_uYxNIR0RXrcdx8\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMmU3YzhkMmJmNGUyYzQ0YjFjOGQ5MGYzYzAyMzkzNzM2Mzg3N2M1MjZmZDgzZmU1Mjc2ZDM1YTNlY2I3NzQ1NDk3MWNlODYxODhiMzFlNzgiLCJpYXQiOjE2MDE2ODAxNDcsIm5iZiI6MTYwMTY4MDE0NywiZXhwIjoxNjMzMjE2MTQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Ccqgzw4nCQU534Z_d8XEY8GtA3n-LzEIqvc2w7p7SXXqgcBLkEZyctzv6_P4VOHARJstuOWQMaJ4qf4xU2SP5qZKQgfU-Fq27JTEUMBXJCDj92CYUqHBplHHTe09i5TKGoCKRgQhC4YPrXY3I7MlH7zkfUap_CQA2Ezzv0N_CMZZ-tcHxVO1BJp2a63Bi8EB2_vavaz3bkCruol7LoxRFBGTiqyLX55mJ5Wn0hQZhLOwzJHBAn4OPHaoN87VMGz1I6t1e_L2nTLcTmBSVnG_Zpt2XyUO062imWyQ-7MjJE0fofC6D_uoKBJTZzY2Mc2eevJsIE1Gcexyv0wYWpGqng6BB5NQObGdqyt1cB4JUM9P3rVgruSInvec-6Rjcs7g5iD-TcKAcoxuIl90pPGKuM-TSFRfj2nTniGU603c6zLnGGzRw8yBNUjq2KkwS3IX3W7fjomcnJ7MUKvpjIpx96h_-k3DTo24apgMeX0JRqanQeNV1otqKVzSm4r7zF3Lk9HPBXA05FTCCN1BoVPtdvR9MI_65VX8l4UGQiUWriRLfuiMx3Q2v_t_XUSG8qjA2P2SE1WLJUYlyUaMxAnhFInqTWV8hk3tOivjI_ZDn8-iopLXiQqRY8GVrlSeyVHwblj2UiPUUq3zAOi7a0Lv4dpoAq8g_uYxNIR0RXrcdx8",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://jwtheippi-.test/api/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601707643799,
+			"name": "Login",
+			"description": "",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\":\"paciente@mail.com\",\n\t\"password\":\"123456\"\n\t\n}"
+		},
+		{
+			"id": "3499b83f-4d69-ee12-1145-234ae455d78d",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\n//Authorization: \n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://jwtheippi-.test/api/registro/doctor",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601707653575,
+			"name": "Registro de Medico",
+			"description": "",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Hospital\", \n\t\"type_id\":2,\n\t\"email\":\"medico3@mail.com\",\n\t\"phone\":\"3105555555\",\n\t\"password\":\"123456\",\n\t\"address\":\"Direccion\",\n\t\"specialty\":\"Pediatra\",\n\t\"parent_id\":1,\n\t\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3RoZWlwcGktLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2MDE3MDE4NjUsImV4cCI6MTYwMTcwNTQ2NSwibmJmIjoxNjAxNzAxODY1LCJqdGkiOiJDQU5MeEFtM05OcE1CTlF2Iiwic3ViIjozLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.mXc2iuawMJr2sCEbvmY4Hfb5Rqk-DlC4LolzaQNaSpk\"\n}\n\n\n\n\n\n\n\n"
+		},
+		{
+			"id": "390fb49f-c13a-3f2f-7d73-ce48befe2144",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\n//Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMmU3YzhkMmJmNGUyYzQ0YjFjOGQ5MGYzYzAyMzkzNzM2Mzg3N2M1MjZmZDgzZmU1Mjc2ZDM1YTNlY2I3NzQ1NDk3MWNlODYxODhiMzFlNzgiLCJpYXQiOjE2MDE2ODAxNDcsIm5iZiI6MTYwMTY4MDE0NywiZXhwIjoxNjMzMjE2MTQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Ccqgzw4nCQU534Z_d8XEY8GtA3n-LzEIqvc2w7p7SXXqgcBLkEZyctzv6_P4VOHARJstuOWQMaJ4qf4xU2SP5qZKQgfU-Fq27JTEUMBXJCDj92CYUqHBplHHTe09i5TKGoCKRgQhC4YPrXY3I7MlH7zkfUap_CQA2Ezzv0N_CMZZ-tcHxVO1BJp2a63Bi8EB2_vavaz3bkCruol7LoxRFBGTiqyLX55mJ5Wn0hQZhLOwzJHBAn4OPHaoN87VMGz1I6t1e_L2nTLcTmBSVnG_Zpt2XyUO062imWyQ-7MjJE0fofC6D_uoKBJTZzY2Mc2eevJsIE1Gcexyv0wYWpGqng6BB5NQObGdqyt1cB4JUM9P3rVgruSInvec-6Rjcs7g5iD-TcKAcoxuIl90pPGKuM-TSFRfj2nTniGU603c6zLnGGzRw8yBNUjq2KkwS3IX3W7fjomcnJ7MUKvpjIpx96h_-k3DTo24apgMeX0JRqanQeNV1otqKVzSm4r7zF3Lk9HPBXA05FTCCN1BoVPtdvR9MI_65VX8l4UGQiUWriRLfuiMx3Q2v_t_XUSG8qjA2P2SE1WLJUYlyUaMxAnhFInqTWV8hk3tOivjI_ZDn8-iopLXiQqRY8GVrlSeyVHwblj2UiPUUq3zAOi7a0Lv4dpoAq8g_uYxNIR0RXrcdx8\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMmU3YzhkMmJmNGUyYzQ0YjFjOGQ5MGYzYzAyMzkzNzM2Mzg3N2M1MjZmZDgzZmU1Mjc2ZDM1YTNlY2I3NzQ1NDk3MWNlODYxODhiMzFlNzgiLCJpYXQiOjE2MDE2ODAxNDcsIm5iZiI6MTYwMTY4MDE0NywiZXhwIjoxNjMzMjE2MTQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Ccqgzw4nCQU534Z_d8XEY8GtA3n-LzEIqvc2w7p7SXXqgcBLkEZyctzv6_P4VOHARJstuOWQMaJ4qf4xU2SP5qZKQgfU-Fq27JTEUMBXJCDj92CYUqHBplHHTe09i5TKGoCKRgQhC4YPrXY3I7MlH7zkfUap_CQA2Ezzv0N_CMZZ-tcHxVO1BJp2a63Bi8EB2_vavaz3bkCruol7LoxRFBGTiqyLX55mJ5Wn0hQZhLOwzJHBAn4OPHaoN87VMGz1I6t1e_L2nTLcTmBSVnG_Zpt2XyUO062imWyQ-7MjJE0fofC6D_uoKBJTZzY2Mc2eevJsIE1Gcexyv0wYWpGqng6BB5NQObGdqyt1cB4JUM9P3rVgruSInvec-6Rjcs7g5iD-TcKAcoxuIl90pPGKuM-TSFRfj2nTniGU603c6zLnGGzRw8yBNUjq2KkwS3IX3W7fjomcnJ7MUKvpjIpx96h_-k3DTo24apgMeX0JRqanQeNV1otqKVzSm4r7zF3Lk9HPBXA05FTCCN1BoVPtdvR9MI_65VX8l4UGQiUWriRLfuiMx3Q2v_t_XUSG8qjA2P2SE1WLJUYlyUaMxAnhFInqTWV8hk3tOivjI_ZDn8-iopLXiQqRY8GVrlSeyVHwblj2UiPUUq3zAOi7a0Lv4dpoAq8g_uYxNIR0RXrcdx8",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://jwtheippi-.test/api/logout",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601700163233,
+			"name": "Logout",
+			"description": "",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"responses": [],
+			"rawModeData": "{\n\t\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3RoZWlwcGktLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2MDE3MDAxMzksImV4cCI6MTYwMTcwMzczOSwibmJmIjoxNjAxNzAwMTM5LCJqdGkiOiJzTTBYRXd4VXRhTUtFU3N4Iiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.Ciqvc2AJvR6rh9Dgvna_wJd1Z8ncEDeUypw6NQ_SyQ8\"\n}"
+		},
+		{
+			"id": "4c8790dc-9b8b-7302-95d1-8828d67e3463",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwtheippi-.test/api/registro",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601700782767,
+			"name": "Registro de Paciente",
+			"description": "Json con la data para el registro de un hospital",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Paciente\", \n\t\"type_id\":3,\n\t\"email\":\"paciente@mail.com\",\n\t\"phone\":\"3105555555\",\n\t\"password\":\"123456\",\n\t\"address\":\"Direccion\",\n\t\"birthdate\":\"14-11-1988\"\n}"
+		},
+		{
+			"id": "5d46a678-c09d-0eaa-fbaf-d82dcc0f70e3",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwtheippi-.test/api/types/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601700657309,
+			"name": "listatar tipos de usuarios",
+			"description": "Listado de tipos de tipos de usuarios",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":111,\n\t\"email\":\"correo@mail.com\",\n\t\"phone\":\"111123232\",\n\t\"password\":\"123456\",\n\t\"address\":\"address\",\n\t\"birthdate\":\"14-11-1988\",\n\t\"specialty\":\"Pediatra\",\n\t\"type_id\":1,\n\t\"parent_id\":0\n}\n"
+		},
+		{
+			"id": "60da45a6-05ca-5e65-deee-6e2952e795d8",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3RoZWlwcGktLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2MDE3MTg5OTUsImV4cCI6MTYwMTcyMjU5NSwibmJmIjoxNjAxNzE4OTk1LCJqdGkiOiJxMHFEWE5wRzd5akt0czVuIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.vu0Urbdj238XWbQFPHlM3PzroFgBwpSYMZqcqFtiEDA\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3RoZWlwcGktLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2MDE3MTg5OTUsImV4cCI6MTYwMTcyMjU5NSwibmJmIjoxNjAxNzE4OTk1LCJqdGkiOiJxMHFEWE5wRzd5akt0czVuIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.vu0Urbdj238XWbQFPHlM3PzroFgBwpSYMZqcqFtiEDA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwtheippi-.test/api/observations",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Listar Observaciones por tipo de usuario",
+			"description": "Lista las observaciones dependiendo del usuario logueado que consulta",
+			"descriptionFormat": "html",
+			"time": 1601721466837,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\":111,\n\t\"email\":\"correo@mail.com\",\n\t\"phone\":\"111123232\",\n\t\"password\":\"123456\",\n\t\"address\":\"address\",\n\t\"birthdate\":\"14-11-1988\",\n\t\"specialty\":\"Pediatra\",\n\t\"type_id\":1,\n\t\"parent_id\":0\n}\n"
+		},
+		{
+			"id": "715795fa-b1ac-103c-2ecc-1989971a5e83",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3RoZWlwcGktLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2MDE3MjU5NzcsImV4cCI6MTYwMTcyOTU3NywibmJmIjoxNjAxNzI1OTc3LCJqdGkiOiJSQ0tFOHoxYTNMTUxTaTZGIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0._53AIaRBGKkNhuiYg1vioM2DV_WeMcPiy7pz5WlyOM8\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3RoZWlwcGktLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2MDE3MjU5NzcsImV4cCI6MTYwMTcyOTU3NywibmJmIjoxNjAxNzI1OTc3LCJqdGkiOiJSQ0tFOHoxYTNMTUxTaTZGIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0._53AIaRBGKkNhuiYg1vioM2DV_WeMcPiy7pz5WlyOM8",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwtheippi-.test/api/observations/xls",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Reporte de observaciones",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601727240531,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\":111,\n\t\"email\":\"correo@mail.com\",\n\t\"phone\":\"111123232\",\n\t\"password\":\"123456\",\n\t\"address\":\"address\",\n\t\"birthdate\":\"14-11-1988\",\n\t\"specialty\":\"Pediatra\",\n\t\"type_id\":1,\n\t\"parent_id\":0\n}\n"
+		},
+		{
+			"id": "7ca0bf87-4dbe-4c40-bb0e-6e9b49129949",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\n//Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMmU3YzhkMmJmNGUyYzQ0YjFjOGQ5MGYzYzAyMzkzNzM2Mzg3N2M1MjZmZDgzZmU1Mjc2ZDM1YTNlY2I3NzQ1NDk3MWNlODYxODhiMzFlNzgiLCJpYXQiOjE2MDE2ODAxNDcsIm5iZiI6MTYwMTY4MDE0NywiZXhwIjoxNjMzMjE2MTQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Ccqgzw4nCQU534Z_d8XEY8GtA3n-LzEIqvc2w7p7SXXqgcBLkEZyctzv6_P4VOHARJstuOWQMaJ4qf4xU2SP5qZKQgfU-Fq27JTEUMBXJCDj92CYUqHBplHHTe09i5TKGoCKRgQhC4YPrXY3I7MlH7zkfUap_CQA2Ezzv0N_CMZZ-tcHxVO1BJp2a63Bi8EB2_vavaz3bkCruol7LoxRFBGTiqyLX55mJ5Wn0hQZhLOwzJHBAn4OPHaoN87VMGz1I6t1e_L2nTLcTmBSVnG_Zpt2XyUO062imWyQ-7MjJE0fofC6D_uoKBJTZzY2Mc2eevJsIE1Gcexyv0wYWpGqng6BB5NQObGdqyt1cB4JUM9P3rVgruSInvec-6Rjcs7g5iD-TcKAcoxuIl90pPGKuM-TSFRfj2nTniGU603c6zLnGGzRw8yBNUjq2KkwS3IX3W7fjomcnJ7MUKvpjIpx96h_-k3DTo24apgMeX0JRqanQeNV1otqKVzSm4r7zF3Lk9HPBXA05FTCCN1BoVPtdvR9MI_65VX8l4UGQiUWriRLfuiMx3Q2v_t_XUSG8qjA2P2SE1WLJUYlyUaMxAnhFInqTWV8hk3tOivjI_ZDn8-iopLXiQqRY8GVrlSeyVHwblj2UiPUUq3zAOi7a0Lv4dpoAq8g_uYxNIR0RXrcdx8\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMmU3YzhkMmJmNGUyYzQ0YjFjOGQ5MGYzYzAyMzkzNzM2Mzg3N2M1MjZmZDgzZmU1Mjc2ZDM1YTNlY2I3NzQ1NDk3MWNlODYxODhiMzFlNzgiLCJpYXQiOjE2MDE2ODAxNDcsIm5iZiI6MTYwMTY4MDE0NywiZXhwIjoxNjMzMjE2MTQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Ccqgzw4nCQU534Z_d8XEY8GtA3n-LzEIqvc2w7p7SXXqgcBLkEZyctzv6_P4VOHARJstuOWQMaJ4qf4xU2SP5qZKQgfU-Fq27JTEUMBXJCDj92CYUqHBplHHTe09i5TKGoCKRgQhC4YPrXY3I7MlH7zkfUap_CQA2Ezzv0N_CMZZ-tcHxVO1BJp2a63Bi8EB2_vavaz3bkCruol7LoxRFBGTiqyLX55mJ5Wn0hQZhLOwzJHBAn4OPHaoN87VMGz1I6t1e_L2nTLcTmBSVnG_Zpt2XyUO062imWyQ-7MjJE0fofC6D_uoKBJTZzY2Mc2eevJsIE1Gcexyv0wYWpGqng6BB5NQObGdqyt1cB4JUM9P3rVgruSInvec-6Rjcs7g5iD-TcKAcoxuIl90pPGKuM-TSFRfj2nTniGU603c6zLnGGzRw8yBNUjq2KkwS3IX3W7fjomcnJ7MUKvpjIpx96h_-k3DTo24apgMeX0JRqanQeNV1otqKVzSm4r7zF3Lk9HPBXA05FTCCN1BoVPtdvR9MI_65VX8l4UGQiUWriRLfuiMx3Q2v_t_XUSG8qjA2P2SE1WLJUYlyUaMxAnhFInqTWV8hk3tOivjI_ZDn8-iopLXiQqRY8GVrlSeyVHwblj2UiPUUq3zAOi7a0Lv4dpoAq8g_uYxNIR0RXrcdx8",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://jwtheippi-.test/api/password/email",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601712842180,
+			"name": "Solicitar correo de recuperacion de contraseña",
+			"description": "",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\":\"hospital@mail.com\"\n}"
+		},
+		{
+			"id": "8acbdb75-dae1-b5f7-e190-ce2702aaaf37",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\nAuthorization: Bearer  eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3RoZWlwcGktLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2MDE3MTU3NzAsImV4cCI6MTYwMTcxOTM3MCwibmJmIjoxNjAxNzE1NzcwLCJqdGkiOiJ1cDA4dFdYVFZ3Z1lqQ1lGIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.XSBSY5yvfaeghde2vxa8jfK2r8gPaHy09J74sgwkPY0\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer  eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3RoZWlwcGktLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2MDE3MTU3NzAsImV4cCI6MTYwMTcxOTM3MCwibmJmIjoxNjAxNzE1NzcwLCJqdGkiOiJ1cDA4dFdYVFZ3Z1lqQ1lGIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.XSBSY5yvfaeghde2vxa8jfK2r8gPaHy09J74sgwkPY0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwtheippi-.test/api/observations",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601716360979,
+			"name": "Registro de observacion",
+			"description": "",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"responses": [],
+			"rawModeData": "{\n\t\"observation\":\"observacion\", \n\t\"health_condition\":\"Buen estado\",\n\t\"specialty\":\"Cardiologia\",\n\t\"patient_id\":3\n}\n\n"
+		},
+		{
+			"id": "9f416c61-2979-8b42-85da-4ba93196c17e",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwtheippi-.test/api/registro",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601699683966,
+			"name": "Registro de Hopital",
+			"description": "Json con la data para el registro de un hospital",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Hospital\", \n\t\"type_id\":1,\n\t\"email\":\"hospital@mail.com\",\n\t\"phone\":\"3105555555\",\n\t\"password\":\"123456\",\n\t\"address\":\"Direccion\",\n\t\"services\":[1,5,6]\n}"
+		},
+		{
+			"id": "d19b8dc4-33a1-9487-7589-50b644fc25cf",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\n//Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMmU3YzhkMmJmNGUyYzQ0YjFjOGQ5MGYzYzAyMzkzNzM2Mzg3N2M1MjZmZDgzZmU1Mjc2ZDM1YTNlY2I3NzQ1NDk3MWNlODYxODhiMzFlNzgiLCJpYXQiOjE2MDE2ODAxNDcsIm5iZiI6MTYwMTY4MDE0NywiZXhwIjoxNjMzMjE2MTQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Ccqgzw4nCQU534Z_d8XEY8GtA3n-LzEIqvc2w7p7SXXqgcBLkEZyctzv6_P4VOHARJstuOWQMaJ4qf4xU2SP5qZKQgfU-Fq27JTEUMBXJCDj92CYUqHBplHHTe09i5TKGoCKRgQhC4YPrXY3I7MlH7zkfUap_CQA2Ezzv0N_CMZZ-tcHxVO1BJp2a63Bi8EB2_vavaz3bkCruol7LoxRFBGTiqyLX55mJ5Wn0hQZhLOwzJHBAn4OPHaoN87VMGz1I6t1e_L2nTLcTmBSVnG_Zpt2XyUO062imWyQ-7MjJE0fofC6D_uoKBJTZzY2Mc2eevJsIE1Gcexyv0wYWpGqng6BB5NQObGdqyt1cB4JUM9P3rVgruSInvec-6Rjcs7g5iD-TcKAcoxuIl90pPGKuM-TSFRfj2nTniGU603c6zLnGGzRw8yBNUjq2KkwS3IX3W7fjomcnJ7MUKvpjIpx96h_-k3DTo24apgMeX0JRqanQeNV1otqKVzSm4r7zF3Lk9HPBXA05FTCCN1BoVPtdvR9MI_65VX8l4UGQiUWriRLfuiMx3Q2v_t_XUSG8qjA2P2SE1WLJUYlyUaMxAnhFInqTWV8hk3tOivjI_ZDn8-iopLXiQqRY8GVrlSeyVHwblj2UiPUUq3zAOi7a0Lv4dpoAq8g_uYxNIR0RXrcdx8\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMmU3YzhkMmJmNGUyYzQ0YjFjOGQ5MGYzYzAyMzkzNzM2Mzg3N2M1MjZmZDgzZmU1Mjc2ZDM1YTNlY2I3NzQ1NDk3MWNlODYxODhiMzFlNzgiLCJpYXQiOjE2MDE2ODAxNDcsIm5iZiI6MTYwMTY4MDE0NywiZXhwIjoxNjMzMjE2MTQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Ccqgzw4nCQU534Z_d8XEY8GtA3n-LzEIqvc2w7p7SXXqgcBLkEZyctzv6_P4VOHARJstuOWQMaJ4qf4xU2SP5qZKQgfU-Fq27JTEUMBXJCDj92CYUqHBplHHTe09i5TKGoCKRgQhC4YPrXY3I7MlH7zkfUap_CQA2Ezzv0N_CMZZ-tcHxVO1BJp2a63Bi8EB2_vavaz3bkCruol7LoxRFBGTiqyLX55mJ5Wn0hQZhLOwzJHBAn4OPHaoN87VMGz1I6t1e_L2nTLcTmBSVnG_Zpt2XyUO062imWyQ-7MjJE0fofC6D_uoKBJTZzY2Mc2eevJsIE1Gcexyv0wYWpGqng6BB5NQObGdqyt1cB4JUM9P3rVgruSInvec-6Rjcs7g5iD-TcKAcoxuIl90pPGKuM-TSFRfj2nTniGU603c6zLnGGzRw8yBNUjq2KkwS3IX3W7fjomcnJ7MUKvpjIpx96h_-k3DTo24apgMeX0JRqanQeNV1otqKVzSm4r7zF3Lk9HPBXA05FTCCN1BoVPtdvR9MI_65VX8l4UGQiUWriRLfuiMx3Q2v_t_XUSG8qjA2P2SE1WLJUYlyUaMxAnhFInqTWV8hk3tOivjI_ZDn8-iopLXiQqRY8GVrlSeyVHwblj2UiPUUq3zAOi7a0Lv4dpoAq8g_uYxNIR0RXrcdx8",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://jwtheippi-.test/api/verify",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Verificacion de correo de registro",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601712616191,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"token\":\"uXrqNty1NxYlR7CQa3QfQgUpVjsFZa1XrAQEApkr\"\n}"
+		},
+		{
+			"id": "d3fdab05-e093-b305-383d-77709decad4d",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3RoZWlwcGktLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2MDE3MTQwMTcsImV4cCI6MTYwMTcxNzYxNywibmJmIjoxNjAxNzE0MDE3LCJqdGkiOiJaQktqZldxZzJtTG5rQjFDIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.kMZmf63wOvJhlNAzKGQoaKUMkobNlfHfiVI01r-ZfH4\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9qd3RoZWlwcGktLnRlc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE2MDE3MTQwMTcsImV4cCI6MTYwMTcxNzYxNywibmJmIjoxNjAxNzE0MDE3LCJqdGkiOiJaQktqZldxZzJtTG5rQjFDIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.kMZmf63wOvJhlNAzKGQoaKUMkobNlfHfiVI01r-ZfH4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://jwtheippi-.test/api/patients",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "listatar pacientes",
+			"description": "Listado de tipos de tipos de usuarios",
+			"descriptionFormat": "html",
+			"time": 1601714446561,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\":111,\n\t\"email\":\"correo@mail.com\",\n\t\"phone\":\"111123232\",\n\t\"password\":\"123456\",\n\t\"address\":\"address\",\n\t\"birthdate\":\"14-11-1988\",\n\t\"specialty\":\"Pediatra\",\n\t\"type_id\":1,\n\t\"parent_id\":0\n}\n"
+		},
+		{
+			"id": "e210f03b-3439-67ee-6787-1caf0e27b4e3",
+			"headers": "Accept: application/json\nAccept-Language: application/json\nContent-Type: application/json\n//Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMmU3YzhkMmJmNGUyYzQ0YjFjOGQ5MGYzYzAyMzkzNzM2Mzg3N2M1MjZmZDgzZmU1Mjc2ZDM1YTNlY2I3NzQ1NDk3MWNlODYxODhiMzFlNzgiLCJpYXQiOjE2MDE2ODAxNDcsIm5iZiI6MTYwMTY4MDE0NywiZXhwIjoxNjMzMjE2MTQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Ccqgzw4nCQU534Z_d8XEY8GtA3n-LzEIqvc2w7p7SXXqgcBLkEZyctzv6_P4VOHARJstuOWQMaJ4qf4xU2SP5qZKQgfU-Fq27JTEUMBXJCDj92CYUqHBplHHTe09i5TKGoCKRgQhC4YPrXY3I7MlH7zkfUap_CQA2Ezzv0N_CMZZ-tcHxVO1BJp2a63Bi8EB2_vavaz3bkCruol7LoxRFBGTiqyLX55mJ5Wn0hQZhLOwzJHBAn4OPHaoN87VMGz1I6t1e_L2nTLcTmBSVnG_Zpt2XyUO062imWyQ-7MjJE0fofC6D_uoKBJTZzY2Mc2eevJsIE1Gcexyv0wYWpGqng6BB5NQObGdqyt1cB4JUM9P3rVgruSInvec-6Rjcs7g5iD-TcKAcoxuIl90pPGKuM-TSFRfj2nTniGU603c6zLnGGzRw8yBNUjq2KkwS3IX3W7fjomcnJ7MUKvpjIpx96h_-k3DTo24apgMeX0JRqanQeNV1otqKVzSm4r7zF3Lk9HPBXA05FTCCN1BoVPtdvR9MI_65VX8l4UGQiUWriRLfuiMx3Q2v_t_XUSG8qjA2P2SE1WLJUYlyUaMxAnhFInqTWV8hk3tOivjI_ZDn8-iopLXiQqRY8GVrlSeyVHwblj2UiPUUq3zAOi7a0Lv4dpoAq8g_uYxNIR0RXrcdx8\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMmU3YzhkMmJmNGUyYzQ0YjFjOGQ5MGYzYzAyMzkzNzM2Mzg3N2M1MjZmZDgzZmU1Mjc2ZDM1YTNlY2I3NzQ1NDk3MWNlODYxODhiMzFlNzgiLCJpYXQiOjE2MDE2ODAxNDcsIm5iZiI6MTYwMTY4MDE0NywiZXhwIjoxNjMzMjE2MTQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Ccqgzw4nCQU534Z_d8XEY8GtA3n-LzEIqvc2w7p7SXXqgcBLkEZyctzv6_P4VOHARJstuOWQMaJ4qf4xU2SP5qZKQgfU-Fq27JTEUMBXJCDj92CYUqHBplHHTe09i5TKGoCKRgQhC4YPrXY3I7MlH7zkfUap_CQA2Ezzv0N_CMZZ-tcHxVO1BJp2a63Bi8EB2_vavaz3bkCruol7LoxRFBGTiqyLX55mJ5Wn0hQZhLOwzJHBAn4OPHaoN87VMGz1I6t1e_L2nTLcTmBSVnG_Zpt2XyUO062imWyQ-7MjJE0fofC6D_uoKBJTZzY2Mc2eevJsIE1Gcexyv0wYWpGqng6BB5NQObGdqyt1cB4JUM9P3rVgruSInvec-6Rjcs7g5iD-TcKAcoxuIl90pPGKuM-TSFRfj2nTniGU603c6zLnGGzRw8yBNUjq2KkwS3IX3W7fjomcnJ7MUKvpjIpx96h_-k3DTo24apgMeX0JRqanQeNV1otqKVzSm4r7zF3Lk9HPBXA05FTCCN1BoVPtdvR9MI_65VX8l4UGQiUWriRLfuiMx3Q2v_t_XUSG8qjA2P2SE1WLJUYlyUaMxAnhFInqTWV8hk3tOivjI_ZDn8-iopLXiQqRY8GVrlSeyVHwblj2UiPUUq3zAOi7a0Lv4dpoAq8g_uYxNIR0RXrcdx8",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://jwtheippi-.test/api/password/reset",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1601713929731,
+			"name": "Cambiar contraseña, ",
+			"description": "",
+			"collectionId": "4795b39b-ca06-40ee-390c-f9731496898b",
+			"responses": [],
+			"rawModeData": "{\n\t\"token\":\"SFSFUhY0IpVxtKZfkPxYFOZzOoqsTHflPfDk6dGq\",\n\t\"password\":654321\n}"
+		}
+	]
+}
